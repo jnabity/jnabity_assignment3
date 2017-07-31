@@ -31,7 +31,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 ALLOWED_HOSTS = ['*']
 
-DEBUG = True
+DEBUG = False
 
 
 
@@ -85,21 +85,14 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd293dom0oc6q59',
-        'USER': 'enmuazkuwbsizq',
-        'PASSWORD': '63f0a7f0a30af1fd14087a9dec186f834499583a12893652f9c4df813eccb270',
-        'HOST': 'ec2-184-73-199-72.compute-1.amazonaws.com',
+        'NAME': 'd9c2v5fds7cgtr',
+        'USER': 'aqdwxivyukqroi',
+        'PASSWORD': 'd621d8c0d694a0757ec32a5e7300e7ef2399c7a90abd13282e0ee6d2708ba378',
+        'HOST': 'ec2-23-23-244-83.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
-'''
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-'''
+
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
